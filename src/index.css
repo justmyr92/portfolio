@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+nav.scrolled {
+    background-color: #82c3ec;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+nav.navbar div.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+nav.navbar .navbar-brand {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #000;
+}
+nav.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav.navbar ul li {
+    margin: 0 1rem;
+}
+nav.navbar ul li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #000;
+    text-decoration: none;
+}
+
+section.home {
+    height: 100vh;
+    background-color: #f1f6f5;
+}
+
+section.home .container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+section.home .container .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.home .container .row .column-1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+section.home .container h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+section.home .container h1 span {
+    color: #472183;
+}
+
+section.home .container h3 {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #000;
+    text-transform: uppercase;
+}
+
+section.home .container p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+section.home div.control-link {
+    display: flex;
+    gap: 0.3rem;
+}
+section.home .container .row .column-1 .btn {
+    padding: 0.5rem 1rem;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.btn-purple,
+.btn-outline-purple:hover {
+    border: 1px solid #472183;
+    background-color: #472183;
+    color: #fff;
+}
+
+.btn-outline-purple {
+    background-color: transparent;
+    color: #472183;
+    border: 1px solid #472183;
+}
