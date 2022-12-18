@@ -12,7 +12,7 @@ nav.navbar {
 }
 
 nav.scrolled {
-    background-color: #82c3ec;
+    background-color: #fff;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 nav.navbar div.container {
@@ -128,4 +128,18 @@ section.home .container .row .column-1 .btn {
     background-color: transparent;
     color: #472183;
     border: 1px solid #472183;
+}
+
+section.about {
+    height: 100vh;
+}
+
+section.about .container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
