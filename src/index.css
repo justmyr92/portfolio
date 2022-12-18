@@ -268,3 +268,11 @@ section.education .container .education-card p {
     font-size: 0.9rem;
     color: #000;
 }
+
+section.education .container .education-card p.school {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #000;
+    margin: 0;
+}
