@@ -40,6 +40,9 @@ const Navbar = ({ title }) => {
                         <a href="#asdasd">Education</a>
                     </li>
                     <li>
+                        <a href="#asd">Projects</a>
+                    </li>
+                    <li>
                         <a href="#Skills">Skills</a>
                     </li>
                     <li>

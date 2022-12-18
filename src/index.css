@@ -138,8 +138,56 @@ section.about .container {
     width: 85%;
     margin: 0 auto;
     padding: 1rem 0.5rem;
+    height: 100%;
+    padding: 50px 0;
+}
+
+section.about .container .about_content {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid #472183;
+}
+
+section.about .container .about_content .about_left {
+    width: 30%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.about .container .about_content .about_left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #472183;
+    box-shadow: 0.3rem 0.3rem #472183;
+}
+
+section.about .container .about_content .about_right {
+    width: 70%;
+    height: 100%;
+    padding: 0 30px;
+}
+
+section.about .container .about_content .about_right h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+section.about .container .about_content .about_right p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #000;
+    text-align: justify;
+    margin: 10px 0;
 }
