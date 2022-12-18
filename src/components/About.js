@@ -16,15 +16,23 @@ const About = ({ title }) => {
                         <h3>{title}</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Donec ac nisl urna. Fusce congue sollicitudin
-                            hendrerit. Suspendisse in nibh metus. Integer varius
-                            vestibulum nulla a imperdiet. Maecenas at eleifend
-                            ante. Morbi at nunc eu justo imperdiet euismod.
-                            Mauris vitae tempus odio. Sed aliquam, ante quis
-                            aliquet rhoncus, est nisi sollicitudin sapien,
-                            mattis rutrum orci orci sit amet ipsum. Morbi nec
-                            libero vitae ex rhoncus rutrum. Nulla quis lorem in
-                            libero luctus feugiat.{" "}
+                            elit. Praesent luctus, justo ut scelerisque
+                            porttitor, odio metus pellentesque elit, eget rutrum
+                            lorem lectus nec metus. Duis porttitor quam a erat
+                            volutpat, et aliquam erat elementum. Curabitur eu
+                            nisl sollicitudin, finibus ante vel, hendrerit
+                            tortor. Vestibulum pellentesque luctus lectus, vitae
+                            sagittis nulla bibendum at. Nulla vitae sollicitudin
+                            sapien. Sed vitae efficitur sapien. Vestibulum
+                            ultricies laoreet commodo. Cras a iaculis diam.
+                            Integer nec massa augue. Curabitur lectus leo,
+                            fermentum eget purus vitae, vulputate molestie nibh.
+                            In et malesuada felis. Aliquam convallis pharetra
+                            dolor, non tempus libero. Praesent non consectetur
+                            orci. Nullam non nisl dolor. Cras vestibulum porta
+                            nulla ac elementum. Vivamus vulputate, lorem vitae
+                            rutrum feugiat, nulla risus commodo urna, convallis
+                            aliquam nisl nisi non mi.
                         </p>
                     </div>
                 </div>

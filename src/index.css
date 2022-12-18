@@ -5,6 +5,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+.top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 0.5rem 1rem;
+    background-color: #472183;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+}
 
 nav.navbar {
     position: fixed;
@@ -166,8 +181,8 @@ section.about .container .about_content .about_left img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 1px solid #472183;
-    box-shadow: 0.3rem 0.3rem #472183;
+    border: 1px solid #4b56d2;
+    box-shadow: 0.3rem 0.3rem #4b56d2;
 }
 
 section.about .container .about_content .about_right {
@@ -230,6 +245,12 @@ section.education .container .education-card {
     padding: 10px;
     border: 1px solid #472183;
     margin: 10px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+section.education .container .education-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0.3rem 0.3rem #472183;
 }
 
 section.education .container .education-card h4 {
