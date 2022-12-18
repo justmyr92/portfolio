@@ -240,6 +240,7 @@ section.education .container .education_content {
 }
 
 section.education .container .education-card {
+    border-radius: 10px;
     width: 24%;
     height: 70%;
     padding: 10px;
@@ -257,7 +258,7 @@ section.education .container .education-card h4 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
-    color: #000;
+    color: #472183;
     text-transform: uppercase;
     margin: 0 0 10px 0;
 }
